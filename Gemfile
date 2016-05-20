@@ -6,10 +6,15 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
+	gem 'rspec-rails'
 end
 
 group :production do
 	gem 'pg'
+end
+
+group :test do
+	gem 'capybara', '1.1.2'
 end
 
 # Use SCSS for stylesheets
