@@ -14,7 +14,7 @@ group :production do
 end
 
 group :test do
-	gem 'capybara', '1.1.2'
+	gem 'capybara', '2.2.0'
 end
 
 # Use SCSS for stylesheets

@@ -1,4 +1,2 @@
-<%= provide(:title, 'Help')%>
-
 <h1>This is about page</h1>
 <p>Find me in app/views/static_pages/help.html.erb</p>
